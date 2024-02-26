@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{543DC34D-2DEA-41BB-A810-2163B35EE783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Server", "JWT.Server\JWT.Server.csproj", "{10EBE30B-50E3-440F-9A75-21C920B578DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Client", "JWT.Client\JWT.Client.csproj", "{BB8B0BD5-AF81-4135-B66C-339CA939E81C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{543DC34D-2DEA-41BB-A810-2163B35EE783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543DC34D-2DEA-41BB-A810-2163B35EE783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{543DC34D-2DEA-41BB-A810-2163B35EE783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10EBE30B-50E3-440F-9A75-21C920B578DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EBE30B-50E3-440F-9A75-21C920B578DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EBE30B-50E3-440F-9A75-21C920B578DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EBE30B-50E3-440F-9A75-21C920B578DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8B0BD5-AF81-4135-B66C-339CA939E81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8B0BD5-AF81-4135-B66C-339CA939E81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8B0BD5-AF81-4135-B66C-339CA939E81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8B0BD5-AF81-4135-B66C-339CA939E81C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
